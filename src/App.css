@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Vazir';
+  font-style: normal;
+  font-weight: 20;
+  src: url('Vazir/Vazir-Black.eot');
+  src: url('Vazir/Vazir-Black.ttf') format('embedded-opentype'),
+       url('Vazir/Vazir-Black.woff2') format('woff2'),
+       url('Vazir/Vazir-Black.woff') format('woff'),
+       url('Vazir/Vazir-Black.eot') format('truetype');
+}
+
+*{
+  font-family: Vazir;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #11394f;
+}
+
+
