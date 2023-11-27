@@ -16,8 +16,16 @@
   box-sizing: border-box;
 }
 
-body {
+/* body {
   background-color: #11394f;
+} */
+
+
+.container {
+  width: 98%;
+  gap:30px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: start;
 }
-
-

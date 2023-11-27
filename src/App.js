@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import { formData } from './Data';
 import "./App.css"
 import Login from './components/Login/Login';
+import Header from './components/Header/Header';
+import NavRight from './components/NavRight/NavRight';
+import NavLeft from './components/NavLeft/NavLeft';
 import Data from './Data';
 
 export default function App() {
@@ -26,8 +28,18 @@ export default function App() {
         <Login login={login} setLogin={setLogin} />
       </div>
       <div style={{ display: JSON.parse(localStorage.getItem("login")) ? 'initial' : 'none' }}>
-        <br /><br />
-        <h1 style={{ color: 'greenyellow', textAlign: "center" }}>سلام داداش :)، ورود با موفقیت انجام شد</h1>
+        <div className="container">
+          <div className="container-item1" style={{width:"4%"}}>
+            <NavLeft />
+          </div>
+          <div className="container-item2" style={{width:"90%" }}>
+            <Header style={{ width: '10px' }} />
+          </div>
+          <div className="container-item3" style={{width:"202px"}}>
+            <NavRight />
+          </div>
+        </div>
+
       </div>
     </>
   )
