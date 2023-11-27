@@ -5,6 +5,7 @@ import Header from './components/Header/Header';
 import NavRight from './components/NavRight/NavRight';
 import NavLeft from './components/NavLeft/NavLeft';
 import Data from './Data';
+import { Routes,Route } from 'react-router-dom';
 
 export default function App() {
   let { loginData } = Data;
@@ -34,6 +35,10 @@ export default function App() {
           </div>
           <div className="container-item2" style={{width:"90%" }}>
             <Header style={{ width: '10px' }} />
+            <Routes>
+              <Route path='/Header/Header'  element={<Header/>}/>
+              <Route path='/NavRight/NavRight'  element={<NavRight/>}/>
+            </Routes>
           </div>
           <div className="container-item3" style={{width:"202px"}}>
             <NavRight />
