@@ -16,8 +16,12 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: #11394f;
+
+
+.container {
+  width: 98%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: start;
 }
-
-

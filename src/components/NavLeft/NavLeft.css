@@ -1,0 +1,14 @@
+.nav-left{
+    height: 100vh;
+    color: white;
+    direction: rtl;
+}
+
+.nav-left-flex {
+    text-align: center;
+    padding: 270% 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
