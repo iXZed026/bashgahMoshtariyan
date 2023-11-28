@@ -5,6 +5,7 @@ import Header from './components/Header/Header';
 import NavRight from './components/NavRight/NavRight';
 import NavLeft from './components/NavLeft/NavLeft';
 import UserInformation from './components/UserInformation/UserInformation';
+import Dashbord from './components/Dashbord/Dashbord';
 import Data from './Data';
 import { Routes,Route } from 'react-router-dom';
 
@@ -37,11 +38,12 @@ export default function App() {
           <div className="container-item2" style={{width:"90%" }}>
             <Header style={{ width: '10px' }} />
             <Routes>
+              <Route path='/'  element={<UserInformation/>}/>
               <Route path='/UserInformation/UserInformation'  element={<UserInformation/>}/>
-              <Route path='/NavRight/NavRight'  element={<NavRight/>}/>
+              <Route path='/Dashbord/Dashbord'  element={<Dashbord/>}/>
             </Routes>
           </div>
-          <div className="container-item3" style={{width:"250px"}}>
+          <div className="container-item3" style={{width:"290px"}}>
             <NavRight />
           </div>
         </div>

@@ -12,7 +12,7 @@
 .nav-right .nav-right-flex {
     display: flex;
     justify-content: center;
-    align-items: center;
+    margin-right: 30px;
     flex-direction: column;
 }
 
@@ -54,5 +54,5 @@
 
 .navLinks-margin {
     position: absolute;
-    bottom: 2%;
+    bottom: 0%;
 }

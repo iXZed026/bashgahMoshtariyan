@@ -1,0 +1,19 @@
+.product{
+    margin-left: 8%;
+    padding: 20px 0;
+    font-size: 14px;
+}
+
+.product-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.product-color{
+    background-color: red;
+    width: 16px;
+    padding: 3px 0;
+    border-radius: 5px;
+}

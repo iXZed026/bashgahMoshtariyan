@@ -6,12 +6,6 @@ import Datas from '../../Data';
 export default function Input(props) {
   let { title, val, id, usersInformation, setUsersInformation } = props;
 
-
-
-  // let [ntCode,setNtCode] = useState(userInfoData.nationalCode)
-
-  // console.log(ntCode);
-
   function changeValueHandler(event) {
 
     if (id == 1) {

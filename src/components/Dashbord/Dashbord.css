@@ -1,0 +1,11 @@
+.dashbord-panel{
+    width: 94%;
+    margin: auto;
+    color: #1B358C;
+}
+
+.dashbord-panel .dashbord-panel-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
