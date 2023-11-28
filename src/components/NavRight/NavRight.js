@@ -18,7 +18,7 @@ export default function NavRight() {
           <span>کارگذاری نو اندیشان</span>
         </div>
         <nav>
-          <Link id='navLinks' to='./Header/Header'><FaUser style={{width:'17px',height:'17px'}}/><p>اطلاعات کاربری</p></Link>
+          <Link id='navLinks' to='./UserInformation/UserInformation'><FaUser style={{width:'17px',height:'17px'}}/><p>اطلاعات کاربری</p></Link>
           <Link id='navLinks' to='./NavRight/NavRight'><VscDashboard style={{width:'17px',height:'17px'}}/><p>داشبورد مدریتی</p></Link>
           <Link id='navLinks' to=''><PiMedalLight style={{width:'17px',height:'17px'}}/><p>امتیازات و تسهیلات</p></Link>
           <Link id='navLinks' to=''><HiUsers style={{width:'17px',height:'17px'}}/><p>خدمات باشگاه مشتریان</p></Link>
