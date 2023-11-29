@@ -14,5 +14,49 @@
 
 .asset-right-container .total-value{
     text-align: center;
-    z-index: 2;
+    position: relative;
+    bottom: 120px;
+    font-size: 20px;
+}
+
+
+.asset-right-title{
+    display: flex;
+    justify-content: space-around;
+    font-size: 13px;
+    align-items: center;
+}
+
+#asset-right-title-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+#asset-right-title-blue {
+    width: 15px;
+    height: 15px;
+    background-color: #243F99;
+    border-radius: 50%;
+}
+
+#asset-right-title-pink {
+    width: 15px;
+    height: 15px;
+    background-color: #E22860;
+    border-radius: 50%;
+}
+
+#asset-right-title-purple {
+    width: 15px;
+    height: 15px;
+    background-color: #5E4BBC;
+    border-radius: 50%;
+}
+
+@media screen and (max-width:1000px) {
+        .asset-right {
+            width: 369px;
+        }
 }

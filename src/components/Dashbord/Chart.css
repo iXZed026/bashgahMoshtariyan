@@ -1,0 +1,44 @@
+.chart {
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    direction: rtl;
+    margin: auto;
+}
+
+.chart-container{
+    width: 90%;
+    margin: auto;
+    padding: 25px 0;
+}
+
+.chart-container h3{
+    margin-bottom: 1%;
+}
+
+.chart-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chart-flex .chart-left{
+    width: 69%;
+    margin: auto;
+}
+
+.chart-flex .chart-right{
+    width: 34%;
+    margin: auto;
+}
+
+@media screen and (max-width:1000px) {
+    .chart {
+        width: 369px;
+    }
+
+    .chart-flex {
+        flex-direction: column;
+        row-gap: 2;
+    }
+}

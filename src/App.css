@@ -26,10 +26,11 @@
   align-items: start;
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:1000px) {
   
 
-  .container-item3{
+  .container-item3,.container-item1{
     display: none;
   }
+
 }

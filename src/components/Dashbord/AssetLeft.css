@@ -26,3 +26,10 @@
     background-color: #D9D9D994;
     font-size: 14px;
 }
+
+
+@media screen and (max-width:1000px) {
+    .asset-left {
+        width: 369px;
+    }
+}
