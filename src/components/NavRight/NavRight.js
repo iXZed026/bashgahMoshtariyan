@@ -20,7 +20,7 @@ export default function NavRight() {
         <nav>
           <Link id='navLinks' to='./UserInformation/UserInformation'><FaUser style={{width:'17px',height:'17px'}}/><p>اطلاعات کاربری</p></Link>
           <Link id='navLinks' to='./Dashbord/Dashbord'><VscDashboard style={{width:'17px',height:'17px'}}/><p>داشبورد مدریتی</p></Link>
-          <Link id='navLinks' to=''><PiMedalLight style={{width:'17px',height:'17px'}}/><p>امتیازات و تسهیلات</p></Link>
+          <Link id='navLinks' to='./PrivilagesAndFacilities/PrivilagesAndFacilities'><PiMedalLight style={{width:'17px',height:'17px'}}/><p>امتیازات و تسهیلات</p></Link>
           <Link id='navLinks' to=''><HiUsers style={{width:'17px',height:'17px'}}/><p>خدمات باشگاه مشتریان</p></Link>
           <Link id='navLinks' to=''><DiGoogleAnalytics style={{width:'17px',height:'17px'}}/><p>گزارش,تحلیل و انالیز</p></Link>
           <Link id='navLinks' to=''><MdModelTraining style={{width:'17px',height:'17px'}}/><p>اموزش و وبینار</p></Link>

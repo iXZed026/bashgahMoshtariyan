@@ -6,6 +6,7 @@ import NavRight from './components/NavRight/NavRight';
 import NavLeft from './components/NavLeft/NavLeft';
 import UserInformation from './components/UserInformation/UserInformation';
 import Dashbord from './components/Dashbord/Dashbord';
+import PrivilagesAndFacilities from './components/PrivilagesAndFacilities/PrivilagesAndFacilities';
 import Data from './Data';
 import { Routes,Route } from 'react-router-dom';
 
@@ -41,9 +42,10 @@ export default function App() {
               <Route path='/'  element={<UserInformation/>}/>
               <Route path='/UserInformation/UserInformation'  element={<UserInformation/>}/>
               <Route path='/Dashbord/Dashbord'  element={<Dashbord/>}/>
+              <Route path='/PrivilagesAndFacilities/PrivilagesAndFacilities'  element={<PrivilagesAndFacilities/>}/>
             </Routes>
           </div>
-          <div className="container-item3" style={{width:"290px"}}>
+          <div className="container-item3" style={{width:"15%"}}>
             <NavRight />
           </div>
         </div>

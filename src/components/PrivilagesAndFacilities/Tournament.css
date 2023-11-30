@@ -1,0 +1,150 @@
+.tournament {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    background-color: #ffff;
+
+    border-radius: 20px;
+    position: relative;
+}
+
+.tournament-container {
+    width: 92%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tournament-todo {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    height: 279px;
+}
+
+.tournament-todo div:first-child,
+.tournament-todo div:last-child {
+    width: 27%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F3F7FF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.606);
+    height: 210px;
+    border-radius: 50% 50% 0 0;
+    text-align: center;
+}
+
+.tournament-join {
+    transform: rotate(180deg);
+    width: 27%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F3F7FF;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.606);
+    height: 210px;
+    border-radius: 50% 50% 0 0;
+    margin-bottom: 68px;
+    text-align: center;
+}
+
+.tournament-join p {
+    transform: rotate(180deg);
+}
+
+
+.tournament-logo {
+    padding-left: 40px;
+    text-align: center;
+    border-left: 2px solid rgba(0, 0, 0, 0.534);
+}
+
+@media screen and (max-width:1000px) {
+    .PrivilagesAndFacilities-top-flex {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .small-product {
+        width: 100%;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .big-product {
+        width: 100%;
+        margin: auto;
+    }
+
+    .box-product2 {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .tournament {
+        display: block;
+        height: 1000px;
+    }
+
+    .tournament-container {
+        margin: auto;
+        flex-direction: column;
+        row-gap: 50px;
+    }
+
+    .tournament-logo {
+        width: 100%;
+        border: none;
+        margin: auto;
+    }
+    
+    .tournament-todo {
+        direction: ltr;
+        display: block;
+        width: 67%;
+        position: relative;
+    }
+
+    .tournament-todo div:first-child{
+        width: 30%;
+        margin: 0;
+        transform: rotate(90deg);
+        position: absolute;
+        left: 0;
+    }
+
+    .tournament-todo div:last-child {
+        width: 30%;
+        margin: 0;
+        transform: rotate(90deg);
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+
+    .tournament-todo div:first-child P,
+    .tournament-todo div:last-child P{
+        transform: rotate(270deg);
+    }
+    
+    .tournament-join {
+        width: 30%;
+        transform: rotate(90deg);
+        margin: 0;
+        position: absolute;
+        right: 0;
+    }
+
+    .tournament-join p{
+        transform: rotate(270deg);
+        margin: 0;
+    }
+
+}
