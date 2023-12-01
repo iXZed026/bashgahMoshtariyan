@@ -5,14 +5,15 @@ import { VscDashboard } from "react-icons/vsc";
 import { FaUserCircle } from "react-icons/fa";
 import { IoIosArrowDown } from "react-icons/io";
 
-export default function Header() {
+export default function Header(props) {
 
+    let getUserName = localStorage.getItem('userName')
 
     return (
         <div className="header">
             <div className="header-flex">
                 <div className="dashbord">
-                    <VscDashboard style={{width:'22px' , height:'22px'}} />
+                    <VscDashboard style={{width:'22px' , height:'22px' }} />
                     <p>داشبورد</p>
                 </div>
                 <div className="fund">
@@ -24,7 +25,7 @@ export default function Header() {
                     <p> 1000 </p>
                 </div>
                 <div className="user-profile">
-                <IoIosArrowDown style={{width:'19px', height:'19px', marginBottom:'3px'}}/><p>User Name</p>
+                <IoIosArrowDown style={{width:'19px', height:'19px', marginBottom:'3px'}}/><p>{getUserName}</p>
                         <FaUserCircle style={{width:'35px' , height:'35px'}}/>
                 </div>
             </div>

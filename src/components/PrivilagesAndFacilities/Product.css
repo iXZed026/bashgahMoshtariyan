@@ -43,6 +43,8 @@
 }
 
 .box-product-flex button:hover{
+    height: 38px;
+    transform: translate(0,2px);
     background-color:  #c1cae2;
     transition: 0.4s;
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.664);

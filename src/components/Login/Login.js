@@ -67,6 +67,9 @@ function Login(props) {
                 ...login,
                 allTrue: true
             });
+
+            localStorage.setItem('userName',login.nationalCodeOrUserName);
+
         } else {
             setSecurity(Math.floor(Math.random() * 99000) + 10000);
         }

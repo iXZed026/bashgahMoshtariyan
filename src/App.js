@@ -37,7 +37,7 @@ export default function App() {
             <NavLeft />
           </div>
           <div className="container-item2" style={{width:"90%" }}>
-            <Header style={{ width: '10px' }} />
+            <Header style={{ width: '10px' }} login={login} setLogin={setLogin}/>
             <Routes>
               <Route path='/'  element={<UserInformation/>}/>
               <Route path='/UserInformation/UserInformation'  element={<UserInformation/>}/>
