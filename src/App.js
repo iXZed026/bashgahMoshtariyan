@@ -9,6 +9,7 @@ import Dashbord from './components/Dashbord/Dashbord';
 import PrivilagesAndFacilities from './components/PrivilagesAndFacilities/PrivilagesAndFacilities';
 import Data from './Data';
 import { Routes,Route } from 'react-router-dom';
+import CompetitionsAreBegin from './components/Tournament/CompetitionsAreBegin';
 
 export default function App() {
   let { loginData } = Data;
@@ -43,6 +44,7 @@ export default function App() {
               <Route path='/UserInformation/UserInformation'  element={<UserInformation/>}/>
               <Route path='/Dashbord/Dashbord'  element={<Dashbord/>}/>
               <Route path='/PrivilagesAndFacilities/PrivilagesAndFacilities'  element={<PrivilagesAndFacilities/>}/>
+            <Route path='/Tournament/CompetitionsAreBegin' element={<CompetitionsAreBegin/>}/>
             </Routes>
           </div>
           <div className="container-item3" style={{width:"15%"}}>

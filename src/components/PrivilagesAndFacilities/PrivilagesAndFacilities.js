@@ -33,7 +33,7 @@ export default function PrivilagesAndFacilities() {
                                 <h3 id='top-title'>برداشت نقدی امتیازات</h3>
                                 <img src="../images/Rectangle70.png" alt="" style={{width:'45%'}}/>
                                 <input type="range" min={0}  max={1000}/>
-                                <p id="box-product-price">1,000,000</p>
+                                <p id="box-product-price">1,000,000 ریال</p>
                                 <button><p>برداشت وجه</p><span><RiMoneyDollarCircleLine  style={{width:'19px' , height:'19px'}}/></span></button>
                             </div>
                         </div>
