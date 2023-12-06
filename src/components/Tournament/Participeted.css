@@ -1,0 +1,20 @@
+.Participeted {
+    width: 100%;
+    direction: rtl;
+    width: 94%;
+    margin: auto;
+}
+
+.Participeted-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 40px;
+}
+
+@media screen and (max-width:1000px) {
+    .Participeted-flex  {
+        flex-direction: column;
+    }
+}

@@ -7,9 +7,11 @@ import NavLeft from './components/NavLeft/NavLeft';
 import UserInformation from './components/UserInformation/UserInformation';
 import Dashbord from './components/Dashbord/Dashbord';
 import PrivilagesAndFacilities from './components/PrivilagesAndFacilities/PrivilagesAndFacilities';
+import CompetitionsAreBegin from './components/Tournament/CompetitionsAreBegin';
+import Participeted from './components/Tournament/Participeted';
 import Data from './Data';
 import { Routes,Route } from 'react-router-dom';
-import CompetitionsAreBegin from './components/Tournament/CompetitionsAreBegin';
+import CustomerClub from './CustomerClub/CustomerClub';
 
 export default function App() {
   let { loginData } = Data;
@@ -45,6 +47,8 @@ export default function App() {
               <Route path='/Dashbord/Dashbord'  element={<Dashbord/>}/>
               <Route path='/PrivilagesAndFacilities/PrivilagesAndFacilities'  element={<PrivilagesAndFacilities/>}/>
             <Route path='/Tournament/CompetitionsAreBegin' element={<CompetitionsAreBegin/>}/>
+            <Route path='/Tournament/Participeted' element={<Participeted/>}/>
+            <Route path='/CustomerClub/CustomerClub' element={<CustomerClub />}/>
             </Routes>
           </div>
           <div className="container-item3" style={{width:"15%"}}>

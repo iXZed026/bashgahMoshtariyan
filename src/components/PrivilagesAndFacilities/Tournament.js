@@ -13,8 +13,8 @@ export default function Tournament() {
                     <img src="../images/tournament.png" alt="" />
                 </div>
                 <div className="tournament-todo">
-                    <div className="tournament-willstart"><p><Link to='../Tournament/CompetitionsAreBegin'>سابقات در حال برگزاری</Link></p></div>
-                    <div className="tournament-join" ><p>سابقاتی که شرکت کردم</p></div>
+                    <div className="tournament-willstart"><p><Link to='../Tournament/CompetitionsAreBegin' style={{textDecoration:'none'}}>مسابقات در حال برگزاری</Link></p></div>
+                    <div className="tournament-join" ><p><Link to='../Tournament/Participeted' style={{textDecoration:'none'}}>مسابقاتی که شرکت کردم</Link></p></div>
                     <div className="tournament-end"><p>مسابقات خاتمه یافته</p></div>
                 </div>
             </div>

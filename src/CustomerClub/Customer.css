@@ -1,0 +1,22 @@
+.customer {
+    height: 90px;
+}
+
+.customer-flex .customer-title {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 20px 0;
+}
+
+.customer-flex .customer-title h2 {
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+.customer-flex p{
+    font-size: 14px;
+    padding:  0 5%;
+    color: #364c93;
+}

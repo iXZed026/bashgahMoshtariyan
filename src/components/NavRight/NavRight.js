@@ -21,7 +21,7 @@ export default function NavRight() {
           <Link id='navLinks' to='./UserInformation/UserInformation'><FaUser style={{width:'17px',height:'17px'}}/><p>اطلاعات کاربری</p></Link>
           <Link id='navLinks' to='./Dashbord/Dashbord'><VscDashboard style={{width:'17px',height:'17px'}}/><p>داشبورد مدریتی</p></Link>
           <Link id='navLinks' to='./PrivilagesAndFacilities/PrivilagesAndFacilities'><PiMedalLight style={{width:'17px',height:'17px'}}/><p>امتیازات و تسهیلات</p></Link>
-          <Link id='navLinks' to=''><HiUsers style={{width:'17px',height:'17px'}}/><p>خدمات باشگاه مشتریان</p></Link>
+          <Link id='navLinks' to='./CustomerClub/CustomerClub'><HiUsers style={{width:'17px',height:'17px'}}/><p>خدمات باشگاه مشتریان</p></Link>
           <Link id='navLinks' to=''><DiGoogleAnalytics style={{width:'17px',height:'17px'}}/><p>گزارش,تحلیل و انالیز</p></Link>
           <Link id='navLinks' to=''><MdModelTraining style={{width:'17px',height:'17px'}}/><p>اموزش و وبینار</p></Link>
         <Link  id='navLinks' className='navLinks-margin' to=''><BsFillTelephoneFill style={{width:'17px',height:'17px'}}/><p>پشتیبانی و مشاوره</p></Link>

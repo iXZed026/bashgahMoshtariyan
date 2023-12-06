@@ -1,0 +1,24 @@
+.customer-club {
+    width: 94%;
+    margin: auto;
+    direction: rtl;
+    background-color: #ffff;
+    color: #1B358C;
+    border-radius: 20px;
+    padding-bottom: 10px;
+    user-select: none;
+}
+
+.customer-club-container {
+    width: 92%;
+    margin: auto;
+    padding: 15px 0;
+}
+
+#customer-club-title {
+    font-size: 19px;
+    padding: 10px 0px;
+    border-bottom: 2px solid #1B358C;
+    margin-bottom: 2%;
+}
+
